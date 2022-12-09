@@ -1,6 +1,8 @@
 import React from 'react';
 import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
 
+/*eslint-disable */
+
 import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
 import './Footer.css';
@@ -8,7 +10,7 @@ import './Footer.css';
 const Footer = () => (
   <div className="app__footer section__padding" id="login">
     <FooterOverlay />
-    <Newsletter />
+    {/* <Newsletter /> */}
 
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
