@@ -4,55 +4,55 @@ const wines = [
   {
     title: 'Апельсиновый фреш',
     price: '9 ₾',
-    tags: '0.3 L',
+    tags: '0.3 л',
   },
   {
     title: 'Грейпфрутовый фреш',
     price: '9 ₾',
-    tags: '0.3 L',
+    tags: '0.3 л',
   },
   {
     title: 'Лемонад киви-мята',
     price: '7 ₾',
-    tags: '0.3 L',
+    tags: '0.3 л',
   },
   {
     title: 'Комбуча в ассортименте',
     price: '8 ₾',
-    tags: '0.3 L',
+    tags: '0.3 л',
   },
   {
     title: 'Вода',
     price: '1 ₾',
-    tags: '0.5 L',
+    tags: '0.5 л',
   },
 ];
 
 const cocktails = [
   {
     title: 'Чай (куркума, имбирь, лемонграсс)',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    price: '3 ₾',
+    tags: '250 мл',
   },
   {
     title: 'Чай (ромашка и липа)',
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    price: '3 ₾',
+    tags: '250 мл',
   },
   {
     title: 'Гречишный чай',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    price: '3 ₾',
+    tags: '250 мл',
   },
   {
     title: 'Американо',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    price: '3 ₾',
+    tags: '250 мл',
   },
   {
     title: 'Капучино',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    price: '7 ₾',
+    tags: 'На растительном молоке | 250 мл',
   },
 ];
 

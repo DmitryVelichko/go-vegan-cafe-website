@@ -7,8 +7,8 @@ import './SpecialMenu.css';
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">
-      <SubHeading title="Menu that fits your palatte" />
-      <h1 className="headtext__cormorant">Today&apos;s Special</h1>
+      <SubHeading title="Еда, за которую не стыдно" />
+      <h1 className="headtext__cormorant">Гляньте наше меню</h1>
     </div>
 
     <div className="app__specialMenu-menu">
@@ -36,7 +36,7 @@ const SpecialMenu = () => (
     </div>
 
     <div style={{ marginTop: 15 }}>
-      <button type="button" className="custom__button">View More</button>
+      <button type="button" className="custom__button">Посмотреть полное меню</button>
     </div>
   </div>
 );

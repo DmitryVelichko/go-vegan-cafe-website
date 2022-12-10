@@ -10,19 +10,19 @@ const Chef = () => (
       <img src={images.chef} alt="chef_image" />
     </div>
     <div className="app__wrapper_info">
-      <SubHeading title="Chef's word" />
-      <h1 className="headtext__cormorant">What we believe in</h1>
+      <SubHeading title="Слово шеф-повара" />
+      <h1 className="headtext__cormorant">Мы верим, что еда может здоровой и вкусной</h1>
 
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote_image" />
-          <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .</p>
+          <p className="p__opensans">Я всегда мечтала открыть кафе, где посетители смогут вкусно поесть и не отравиться.</p>
         </div>
-        <p className="p__opensans"> auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc. </p>
+        <p className="p__opensans">И кажется, нам с командой удалось это сделать. Мы создали этическое пространство, где можно заказать здоровую и полезную пищу. Кароч, попробуйте сами. Пальчики оближешь, зуб даю.</p>
       </div>
 
       <div className="app__chef-sign">
-        <p>Kevin Luo</p>
+        <p>Алёна</p>
         <p className="p__opensans">Chef & Founder</p>
         <img src={images.sign} alt="sign_image" />
       </div>
