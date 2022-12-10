@@ -12,16 +12,16 @@ const Navbar = () => {
         <img src={images.gericht} alt="app__logo" />
       </div>
       <ul className="app__navbar-links">
-        <li className="p__opensans"><a href="#home">Home</a></li>
-        <li className="p__opensans"><a href="#about">About</a></li>
-        <li className="p__opensans"><a href="#menu">Menu</a></li>
-        <li className="p__opensans"><a href="#awards">Awards</a></li>
-        <li className="p__opensans"><a href="#contact">Contact</a></li>
+        <li className="p__opensans"><a href="#home">Главная</a></li>
+        <li className="p__opensans"><a href="#about">О нас</a></li>
+        <li className="p__opensans"><a href="#menu">Меню</a></li>
+        <li className="p__opensans"><a href="#awards">Десерты</a></li>
+        <li className="p__opensans"><a href="#contact">Контакты</a></li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">Log In / Registration</a>
+        <a href="#login" className="p__opensans">Батуми, ул. Меликишвили, 23</a>
         <div />
-        <a href="/" className="p__opensans">Book Table</a>
+        <a href="/" className="p__opensans">(+995) 571-59-07-33</a>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
