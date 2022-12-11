@@ -69,6 +69,10 @@
     margin-top: 3rem;
 }
 
+.border-bottom-highlight a:hover {
+    border-bottom: 1px solid var(--color-golden);
+}
+
 @media screen and (min-width: 2000px) {
     .app__footer-headtext {
         font-size: 51px;

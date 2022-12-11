@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Findus.css';
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
 
@@ -8,8 +8,8 @@ const FindUs = () => (
     <div className="app__wrapper_info">
       <SubHeading title="Контакты" />
       <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>Наш адрес</h1>
-      <div className="app__wrapper-content">
-        <p className="p__opensans">Грузия, г. Батуми, ул. Меликишвили, 23</p>
+      <div className="app__wrapper-content border-bottom-highlight">
+        <p className="p__opensans"><a href="https://goo.gl/maps/QM3wXoFwQmTGptQv8" target="_blank" className="p__opensans" rel="noreferrer">Грузия, г. Батуми, ул. Меликишвили, 23</a></p>
         <p className="p__cormorant" style={{ color: '#DCCA87', margin: '2rem 0' }}>Часы работы</p>
         <p className="p__opensans">Понедельник - Воскресенье: 11:00 - 21:00</p>
       </div>

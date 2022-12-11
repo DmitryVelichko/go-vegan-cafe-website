@@ -13,7 +13,7 @@ const Footer = () => (
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Мы здесь</h1>
-        <p className="p__opensans">Грузия, г. Батуми, ул. Меликишвили, 23</p>
+        <p className="p__opensans border-bottom-highlight"><a href="https://goo.gl/maps/QM3wXoFwQmTGptQv8" target="_blank" className="p__opensans" rel="noreferrer">Грузия, г. Батуми, ул. Меликишвили, 23</a></p>
         <p className="p__opensans">(+995) 571-59-07-33</p>
       </div>
 
