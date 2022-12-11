@@ -1,6 +1,5 @@
 import React from 'react';
-/*eslint-disable */
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Laurels, SpecialMenu } from './container';
 import { Navbar } from './components';
 import './App.css';
 
@@ -11,7 +10,6 @@ const App = () => (
     <AboutUs />
     <SpecialMenu />
     <Chef />
-    {/* <Intro /> */}
     <Laurels />
     <Gallery />
     <FindUs />

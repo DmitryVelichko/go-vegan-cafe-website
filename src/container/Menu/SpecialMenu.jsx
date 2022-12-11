@@ -1,8 +1,8 @@
 import React from 'react';
-
 import { SubHeading, MenuItem } from '../../components';
 import { data, images } from '../../constants';
 import './SpecialMenu.css';
+import menu from '../../assets/cafemenu.jpeg';
 
 const SpecialMenu = () => (
   <div className="app__specialMenu flex__center section__padding" id="menu">
@@ -36,7 +36,7 @@ const SpecialMenu = () => (
     </div>
 
     <div style={{ marginTop: 15 }}>
-      <button type="button" className="custom__button">Посмотреть полное меню</button>
+      <a href={menu} target="_blank" rel="noreferrer"><button type="button" className="custom__button">Посмотреть полное меню</button></a>
     </div>
   </div>
 );
