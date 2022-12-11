@@ -1,8 +1,6 @@
 import React from 'react';
-import { FiFacebook, FiTwitter, FiInstagram } from 'react-icons/fi';
-
+import { FiFacebook, FiInstagram } from 'react-icons/fi';
 /*eslint-disable */
-
 import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
 import './Footer.css';
@@ -21,12 +19,11 @@ const Footer = () => (
 
       <div className="app__footer-links_logo">
         <img src={images.gericht} alt="footer_logo" />
-        <p className="p__opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
+        <p className="p__opensans">&quot;Навари мне, бабка, щей, я жажду мертвых овощей.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
-          <FiFacebook />
-          <FiTwitter />
-          <FiInstagram />
+          <a href="https://www.facebook.com/vegancafebatumi" target="_blank" rel="noreferrer"><FiFacebook /></a>
+          <a href="https://www.instagram.com/vegancafebatumi/" target="_blank" rel="noreferrer"><FiInstagram /></a>
         </div>
       </div>
 
@@ -38,7 +35,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">{new Date().getFullYear()} Go Vegan Cafe Батуми</p>
+      <p className="p__opensans">{new Date().getFullYear()} | Go Vegan Cafe Батуми</p>
     </div>
 
   </div>

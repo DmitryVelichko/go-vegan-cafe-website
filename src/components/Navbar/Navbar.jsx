@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import images from '../../constants/images';
 import './Navbar.css';
-
+/*eslint-disable */
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
@@ -13,15 +13,15 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Главная</a></li>
-        <li className="p__opensans"><a href="#about">О нас</a></li>
+        <li className="p__opensans"><a href="#about">Доставка</a></li>
         <li className="p__opensans"><a href="#menu">Меню</a></li>
         <li className="p__opensans"><a href="#awards">Десерты</a></li>
         <li className="p__opensans"><a href="#contact">Контакты</a></li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">Батуми, ул. Меликишвили, 23</a>
+        <a href="https://goo.gl/maps/QM3wXoFwQmTGptQv8" target="_blank" className="p__opensans" rel="noreferrer">Батуми, ул. Меликишвили, 23</a>
         <div />
-        <a href="/" className="p__opensans">(+995) 571-59-07-33</a>
+        <a href="#" style={{pointerEvents: "none"}} className="p__opensans">(+995) 571-59-07-33</a>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
@@ -29,11 +29,11 @@ const Navbar = () => {
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
             <ul className="app__navbar-smallscreen_links">
-              <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
-              <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
-              <li><a href="#menu" onClick={() => setToggleMenu(false)}>Menu</a></li>
-              <li><a href="#awards" onClick={() => setToggleMenu(false)}>Awards</a></li>
-              <li><a href="#contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
+              <li><a href="#home" onClick={() => setToggleMenu(false)}>Главная</a></li>
+              <li><a href="#about" onClick={() => setToggleMenu(false)}>Доставка</a></li>
+              <li><a href="#menu" onClick={() => setToggleMenu(false)}>Меню</a></li>
+              <li><a href="#awards" onClick={() => setToggleMenu(false)}>Десерты</a></li>
+              <li><a href="#contact" onClick={() => setToggleMenu(false)}>Контакты</a></li>
             </ul>
           </div>
         )}

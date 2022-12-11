@@ -71,6 +71,10 @@
   transform: scale(1.2);
 }
 
+.custom__button:active {
+  background-color: lightgray;
+}
+
 .p__cormorant {
   font-family: var(--font-base);
   color: var(--color-white);

@@ -14,7 +14,7 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Доставка Wolt</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">Закажите ваши любимые веганские вкусняшки из нашего кафе через сайт Wolt.</p>
-        <a href="https://wolt.com/en/geo/batumi/restaurant/go-vegan-cafe" target="_blank" rel="noreferrer"><button type="button" className="custom__button">Заказать</button></a>
+        <a href="https://wolt.com/en/geo/batumi/restaurant/go-vegan-cafe" target="_blank" rel="noreferrer"><button type="button" className="custom__button">Заказать через Wolt</button></a>
       </div>
 
       <div className="app__aboutus-content_knife flex__center">
@@ -25,7 +25,7 @@ const AboutUs = () => (
         <h1 className="headtext__cormorant">Доставка Bolt</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">Закажите ваши любимые веганские вкусняшки из нашего кафе через сайт Bolt.</p>
-        <a href="https://food.bolt.eu/en-US/38-batumi/p/57127-go-vegan-cafe" target="_blank" rel="noreferrer"><button type="button" className="custom__button">Заказать</button></a>
+        <a href="https://food.bolt.eu/en-US/38-batumi/p/57127-go-vegan-cafe" target="_blank" rel="noreferrer"><button type="button" className="custom__button">Заказать через Bolt</button></a>
       </div>
     </div>
   </div>
