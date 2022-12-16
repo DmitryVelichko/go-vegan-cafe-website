@@ -10,22 +10,23 @@ import './Cakes.css';
 const Cakes = () => {
   const scrollRef = React.useRef(null);
 
-  // const goToTop = () => {        
-  //         window.scrollTo(0, 0);        
-  //  };
-  // useEffect(() => {
-  //         goToTop()
-  // })
+  
+   useEffect(() => {
+           scroll()
+   },[])
 
   const scroll = (direction) => {
     const { current } = scrollRef;
-    current.scrollTo()
+   
 
     if (direction === 'left') {
+      
       current.scrollLeft -= 300;
     } else {
+ 
       current.scrollLeft += 300;
     }
+   
   };
 
   return (
