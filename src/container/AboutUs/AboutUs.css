@@ -52,6 +52,17 @@
     color: var(--color-grey);
 }
 
+.custom__button {
+    margin-bottom: 1rem;
+    margin-right: 12px;
+}
+
+
+.app__aboutus_links {
+    display: flex;
+}
+
+
 @media screen and (min-width: 2000px) {
     .app__aboutus-content_knife img {
         height: 1110px;
