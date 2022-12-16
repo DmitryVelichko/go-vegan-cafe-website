@@ -1,6 +1,8 @@
 import React from 'react';
+/*eslint-disable */
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
+import { MdLanguage } from 'react-icons/md';
 import images from '../../constants/images';
 import './Navbar.css';
 /*eslint-disable */
@@ -10,6 +12,7 @@ const Navbar = () => {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <img src={images.gericht} alt="app__logo" />
+        
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Главная</a></li>
@@ -34,6 +37,8 @@ const Navbar = () => {
               <li><a href="#menu" onClick={() => setToggleMenu(false)}>Меню</a></li>
               <li><a href="#awards" onClick={() => setToggleMenu(false)}>Десерты</a></li>
               <li><a href="#contact" onClick={() => setToggleMenu(false)}>Контакты</a></li>
+              <li><a href="#contact" onClick={() => setToggleMenu(false)}>Контакты</a></li>
+
             </ul>
           </div>
         )}
