@@ -1,18 +1,19 @@
 .app__cake {
     flex-direction: row;
+
     background: var(--color-black);
-    padding: 4rem 6rem 4rem 0;
+    padding: 4rem 0 4rem 6rem;
 }
 
 .app__cake-content {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     flex-direction: column;
 
     min-width: 500px;
-    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .app__cake-content button {
@@ -124,13 +125,13 @@
 
 @media screen and (max-width: 850px) {
     .app__cake {
-        padding: 4rem 0 4rem 4rem;
+        padding: 0 0 0 4rem;
     }
 }
 
 @media screen and (max-width: 650px) {
     .app__cake {
-        padding: 4rem 0 4rem 2rem;
+        padding: 0 0 0 2rem;
     }  
     
     .app__cake-content {
