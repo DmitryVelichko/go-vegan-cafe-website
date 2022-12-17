@@ -1,5 +1,6 @@
 import React from 'react';
 /*eslint-disable */
+import { Link } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import { MdLanguage } from 'react-icons/md';
@@ -12,7 +13,7 @@ const Navbar = () => {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <img src={images.gericht} alt="app__logo" />
-        <a href='#' className='app__lang'>En</a>
+        <Link to='/en'><span className='app__lang'>En</span></Link>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Главная</a></li>

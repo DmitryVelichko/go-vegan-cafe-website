@@ -12,14 +12,14 @@ const Footer = () => (
 
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
-        <h1 className="app__footer-headtext">Мы здесь</h1>
-        <p className="p__opensans border-bottom-highlight"><a href="https://goo.gl/maps/QM3wXoFwQmTGptQv8" target="_blank" className="p__opensans" rel="noreferrer">Грузия, г. Батуми, ул. Меликишвили, 23</a></p>
+        <h1 className="app__footer-headtext">We Are Here</h1>
+        <p className="p__opensans border-bottom-highlight"><a href="https://goo.gl/maps/QM3wXoFwQmTGptQv8" target="_blank" className="p__opensans" rel="noreferrer">23 Melikishvili Street, Batumi, Georgia</a></p>
         <p className="p__opensans">(+995) 571-59-07-33</p>
       </div>
 
       <div className="app__footer-links_logo">
         <img src={images.gericht} alt="footer_logo" />
-        <p className="p__opensans">&quot;Навари мне, бабка, щей, я жажду мертвых овощей.&quot;</p>
+        <p className="p__opensans">&quot;Our food is grown, not born.&quot;</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
           <a href="https://www.facebook.com/vegancafebatumi" target="_blank" rel="noreferrer"><FiFacebook /></a>
@@ -28,9 +28,9 @@ const Footer = () => (
       </div>
 
       <div className="app__footer-links_work">
-        <h1 className="app__footer-headtext">Часы работы</h1>
-        <p className="p__opensans">Понедельник-Воскресенье:</p>
-        <p className="p__opensans">11:00 - 21:00</p>
+        <h1 className="app__footer-headtext">Opening Hours</h1>
+        <p className="p__opensans">Monday-Sunday:</p>
+        <p className="p__opensans">11:00 am - 9:00 pm</p>
       </div>
     </div>
 

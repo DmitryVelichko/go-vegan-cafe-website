@@ -8,6 +8,16 @@ import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import Laurels from './Laurels/Laurels';
 import SpecialMenu from './Menu/SpecialMenu';
+import SpecialMenuENG from './Menu/SpecialMenuENG';
+import AboutUsENG from './AboutUs/AboutUsENG';
+import ChefENG from './Chef/ChefENG';
+import FindUsENG from './Findus/FindUsENG';
+import FooterENG from './Footer/FooterENG';
+import GalleryENG from './Gallery/GalleryENG';
+import CakeENG from './Cake/CakeENG';
+import HeaderENG from './Header/HeaderENG';
+import IntroENG from './Intro/IntroENG';
+import LaurelsENG from './Laurels/LaurelsENG';
 
 export {
   AboutUs,
@@ -20,4 +30,14 @@ export {
   Intro,
   Laurels,
   SpecialMenu,
+  AboutUsENG,
+  ChefENG,
+  FindUsENG,
+  FooterENG,
+  GalleryENG,
+  CakeENG,
+  HeaderENG,
+  IntroENG,
+  LaurelsENG,
+  SpecialMenuENG,
 };
