@@ -16,7 +16,6 @@ import FooterENG from './Footer/FooterENG';
 import GalleryENG from './Gallery/GalleryENG';
 import CakeENG from './Cake/CakeENG';
 import HeaderENG from './Header/HeaderENG';
-import IntroENG from './Intro/IntroENG';
 import LaurelsENG from './Laurels/LaurelsENG';
 
 export {
@@ -37,7 +36,6 @@ export {
   GalleryENG,
   CakeENG,
   HeaderENG,
-  IntroENG,
   LaurelsENG,
   SpecialMenuENG,
 };

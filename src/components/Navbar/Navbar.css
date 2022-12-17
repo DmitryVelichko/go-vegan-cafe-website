@@ -104,10 +104,13 @@
   color: var(--color-white);
 }
 
-.app__lang {
-  color: white;
-  font-size: 16px;
-  padding: 5px 10px;
+.flag-englishDiv {
+  padding-left: 16px;
+}
+
+.flag-englishDiv img {
+  max-height: 15px;
+  max-width: 25px;
 }
 
 @media screen and (min-width: 2000px) {

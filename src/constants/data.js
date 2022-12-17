@@ -60,18 +60,41 @@ const awards = [
   {
     imgUrl: images.award01,
     title: 'Сыроедческие конфеты',
-    subtitle: 'Финики, курага, семена подсолнечника, фундук, цедра апельсина, корица, какао',
+    subtitle:
+      'Финики, курага, семена подсолнечника, фундук, цедра апельсина, корица, какао',
   },
   {
     imgUrl: images.award02,
     title: 'Шоколадный трайфл',
-    subtitle: 'Кокосовое молоко, агар-агар, финики, миндаль, фундук, банан, кокосовая стружка',
+    subtitle:
+      'Кокосовое молоко, агар-агар, финики, миндаль, фундук, банан, кокосовая стружка',
   },
   {
     imgUrl: images.award03,
     title: 'Рисовое пирожное',
-    subtitle: 'Фундук, финики, рисовая мука, растительное молоко, кокосове масло',
+    subtitle:
+      'Фундук, финики, рисовая мука, растительное молоко, кокосове масло',
   },
 ];
 
-export default { wines, cocktails, awards };
+const awardsENG = [
+  {
+    imgUrl: images.award01,
+    title: 'Raw Food Candies',
+    subtitle:
+      'Dates, dried apricots, sunflower seeds, hazelnuts, orange peel, cinnamon, cocoa',
+  },
+  {
+    imgUrl: images.award02,
+    title: 'Chocolate Trifle',
+    subtitle:
+      'Coconut milk, agar-agar, dates, almonds, hazelnuts, banana, coconut flakes',
+  },
+  {
+    imgUrl: images.award03,
+    title: 'Rice Cake',
+    subtitle: 'Hazelnuts, dates, rice flour, vegetable milk, coconut oil',
+  },
+];
+
+export default { wines, cocktails, awards, awardsENG };

@@ -12,13 +12,13 @@ const NavbarENG = () => {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <img src={images.gericht} alt="app__logo" />
-        <a href='#' className='app__lang'>En</a>
+        {/* <a href='#' className='app__lang'>En</a> */}
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Main</a></li>
         <li className="p__opensans"><a href="#about">Delivery</a></li>
         <li className="p__opensans"><a href="#menu">Menu</a></li>
-        <li className="p__opensans"><a href="#awards">Deserts</a></li>
+        <li className="p__opensans"><a href="#awards">Desserts</a></li>
         <li className="p__opensans"><a href="#contact">Contact</a></li>
       </ul>
       <div className="app__navbar-login">
@@ -37,7 +37,7 @@ const NavbarENG = () => {
               <li><a href="#home" onClick={() => setToggleMenu(false)}>Main</a></li>
               <li><a href="#about" onClick={() => setToggleMenu(false)}>Delivery </a></li>
               <li><a href="#menu" onClick={() => setToggleMenu(false)}>Menu</a></li>
-              <li><a href="#awards" onClick={() => setToggleMenu(false)}>Deserts</a></li>
+              <li><a href="#awards" onClick={() => setToggleMenu(false)}>Desserts</a></li>
               <li><a href="#contact" onClick={() => setToggleMenu(false)}>Contacts</a></li>
             </ul>
           </div>
