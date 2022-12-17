@@ -5,14 +5,14 @@ import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import { MdLanguage } from 'react-icons/md';
 import images from '../../constants/images';
 import './Navbar.css';
-/*eslint-disable */
+
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <img src={images.gericht} alt="app__logo" />
-        
+        <a href='#'>En</a>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Главная</a></li>
@@ -22,9 +22,11 @@ const Navbar = () => {
         <li className="p__opensans"><a href="#contact">Контакты</a></li>
       </ul>
       <div className="app__navbar-login">
-        <a href="https://goo.gl/maps/QM3wXoFwQmTGptQv8" target="_blank" className="p__opensans" rel="noreferrer">Батуми, ул. Меликишвили, 23</a>
+        <a href="https://goo.gl/maps/QM3wXoFwQmTGptQv8" target="_blank" className="p__opensans address-link" rel="noreferrer">Батуми, ул. Меликишвили, 23
+        </a>
         <div />
-        <a href="#" style={{pointerEvents: "none"}} className="p__opensans">(+995) 571-59-07-33</a>
+        <a href="#" style={{pointerEvents: "none"}} className="p__opensans">(+995) 571-59-07-33
+        </a>
       </div>
       <div className="app__navbar-smallscreen">
         <GiHamburgerMenu color="#fff" fontSize={27} onClick={() => setToggleMenu(true)} />
