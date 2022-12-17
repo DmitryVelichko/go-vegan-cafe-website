@@ -62,6 +62,11 @@
     display: flex;
 }
 
+.about__tel {
+    color: white;
+    font-weight: 600;
+}
+
 
 @media screen and (min-width: 2000px) {
     .app__aboutus-content_knife img {

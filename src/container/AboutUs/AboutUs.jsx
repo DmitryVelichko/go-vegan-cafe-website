@@ -28,7 +28,7 @@ const AboutUs = () => (
       <div className="app__aboutus-content_history">
         <h1 className="headtext__cormorant">Самовывоз</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
-        <p className="p__opensans">Позвоните нам по телефону (+995) 571-59-07-33 и заберите ваши любимые блюда в удобное для вас время.</p>
+        <p className="p__opensans">Позвоните нам по телефону <span className='about__tel'>(+995) 571-59-07-33</span> и заберите ваши любимые блюда в удобное для вас время.</p>
         <a href='tel:+995571590733'><button type="button"className="custom__button button__cta">Позвонить</button></a>
       </div>
     </div>
