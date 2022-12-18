@@ -2,8 +2,9 @@ import React from 'react';
 /*eslint-disable */
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
-import { MdLanguage } from 'react-icons/md';
+import flagImg from '../../assets/english-flag.png'
 import images from '../../constants/images';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const NavbarENG = () => {
@@ -12,7 +13,9 @@ const NavbarENG = () => {
     <nav className="app__navbar">
       <div className="app__navbar-logo">
         <img src={images.gericht} alt="app__logo" />
-        {/* <a href='#' className='app__lang'>En</a> */}
+        <div className='flag-englishDivENG'>
+        <Link to='/' className='linkToEn'><span className='flag-englishDiv'>🌐</span></Link>
+      </div>
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Main</a></li>

@@ -19,7 +19,7 @@ const Footer = () => (
 
       <div className="app__footer-links_logo">
         <img src={images.gericht} alt="footer_logo" />
-        <p className="p__opensans">&quot;Навари мне, бабка щей, я жажду мёртвых овощей.&quot;</p>
+        <p className="p__opensans">&quot;Все животные — мои друзья. А я не ем моих друзей&quot;.<br/>Бернард Шоу</p>
         <img src={images.spoon} className="spoon__img" style={{ marginTop: 15 }} />
         <div className="app__footer-links_icons">
           <a href="https://www.facebook.com/vegancafebatumi" target="_blank" rel="noreferrer"><FiFacebook /></a>

@@ -28,6 +28,34 @@ const wines = [
   },
 ];
 
+const winesENG = [
+  {
+    title: 'Orange Fresh',
+    price: '9 ₾',
+    tags: '0.3 L',
+  },
+  {
+    title: 'Grapefruit Fresh',
+    price: '9 ₾',
+    tags: '0.3 L',
+  },
+  {
+    title: 'Kiwi Mint Lemonade',
+    price: '7 ₾',
+    tags: '0.3 L',
+  },
+  {
+    title: 'Assorted Kombucha',
+    price: '8 ₾',
+    tags: '0.3 L',
+  },
+  {
+    title: 'Water',
+    price: '1 ₾',
+    tags: '0.5 L',
+  },
+];
+
 const cocktails = [
   {
     title: 'Чай (куркума, имбирь, лемонграсс)',
@@ -53,6 +81,34 @@ const cocktails = [
     title: 'Капучино',
     price: '7 ₾',
     tags: 'На растительном молоке | 250 мл',
+  },
+];
+
+const cocktailsENG = [
+  {
+    title: 'Tea (turmeric, ginger, lemongrass)',
+    price: '3 ₾',
+    tags: '250 ml',
+  },
+  {
+    title: 'Tea (chamomile and linden)',
+    price: '3 ₾',
+    tags: '250 ml',
+  },
+  {
+    title: 'Buckwheat Tea',
+    price: '3 ₾',
+    tags: '250 ml',
+  },
+  {
+    title: 'Americano',
+    price: '3 ₾',
+    tags: '250 ml',
+  },
+  {
+    title: 'Cappuccino',
+    price: '7 ₾',
+    tags: 'With vegetable milk | 250 ml',
   },
 ];
 
@@ -97,4 +153,4 @@ const awardsENG = [
   },
 ];
 
-export default { wines, cocktails, awards, awardsENG };
+export default { wines, cocktails, awards, awardsENG, winesENG, cocktailsENG };
