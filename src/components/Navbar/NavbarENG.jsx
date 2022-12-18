@@ -14,7 +14,7 @@ const NavbarENG = () => {
       <div className="app__navbar-logo">
         <img src={images.gericht} alt="app__logo" />
         <div className='flag-englishDivENG'>
-        <Link to='/' className='linkToEn'><span className='flag-englishDiv'>🌐</span></Link>
+        <Link to='/' className='linkToEn'><span className='flag-englishDiv'>🌐 <span className='spanRu'>Ru</span></span></Link>
       </div>
       </div>
       <ul className="app__navbar-links">

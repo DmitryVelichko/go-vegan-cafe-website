@@ -144,6 +144,11 @@
   }
 }
 
+.spanRu {
+  color: white;
+  font-size: 12px;
+}
+
 @media screen and (max-width: 650px) {
   .app__navbar {
     padding: 1rem;

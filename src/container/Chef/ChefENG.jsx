@@ -22,9 +22,9 @@ const ChefENG = () => (
       </div>
 
       <div className="app__chef-sign">
-        <p>Alyona</p>
+        <p>Alyona Tereshko</p>
         <p className="p__opensans">Chef & Founder</p>
-        <img src={images.sign} alt="sign_image" />
+        <img src={images.sign} alt="sign_image" style={{ width: '350px', marginTop: 0 }} />
       </div>
     </div>
   </div>

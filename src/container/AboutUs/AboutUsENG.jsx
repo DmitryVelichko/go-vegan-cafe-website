@@ -29,7 +29,7 @@ const AboutUsENG = () => (
         <h1 className="headtext__cormorant">Pickup</h1>
         <img src={images.spoon} alt="about_spoon" className="spoon__img" />
         <p className="p__opensans">Call us <span className='about__tel'>(+995) 571-59-07-33</span> and pick up your favorite meals at your convenience.</p>
-        <a href='tel:+995571590733'><button type="button"className="custom__button button__cta">Call</button></a>
+        <a href='tel:+995571590733'><button type="button"className="custom__button button__cta">Call Us</button></a>
       </div>
     </div>
   </div>
