@@ -18,7 +18,7 @@ const ChefENG = () => (
           <img src={images.quote} alt="quote_image" />
           <p className="p__opensans">I have always dreamed of opening a cafe where visitors can eat delicious and healthy food.</p>
         </div>
-        <p className="p__opensans">And it seems that the team and I managed to do it. We have created an ethical space where you can order healthy and wholesome food. Try it yourself. Super tasty, I swear.</p>
+        <p className="p__opensans">And so the Go Vegan project was born, the first restaurant in Batumi with a completely plant-based menu. We have created an ethical space where you can order healthy and wholesome food.</p>
       </div>
 
       <div className="app__chef-sign">
