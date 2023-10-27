@@ -1,6 +1,5 @@
 import React from 'react';
 import { FiFacebook, FiInstagram } from 'react-icons/fi';
-/*eslint-disable */
 import { FooterOverlay, Newsletter } from '../../components';
 import { images } from '../../constants';
 import './Footer.css';

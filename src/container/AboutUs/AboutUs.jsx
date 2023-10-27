@@ -1,5 +1,4 @@
 import React from 'react';
-/*eslint-disable*/
 import { images } from '../../constants';
 import './AboutUs.css';
 

@@ -27,7 +27,7 @@ const Cake = () => {
       </div>
       <div className="app__cake-images">
         <div className="app__cake-images_container" ref={scrollRef}>
-          {[images.gallery01, images.gallery02, images.gallery03, images.gallery04].map((image, index) => (
+          {[images.galleryCake1, images.galleryCake2, images.galleryCake3, images.galleryCake4].map((image, index) => (
             <a href="https://www.instagram.com/vegancafebatumi/" target="_blank" rel="noreferrer">
               <div className="app__cake-images_card flex__center" key={`cake_image-${index + 1}`}>
                 <img src={image} alt="cake_image" />

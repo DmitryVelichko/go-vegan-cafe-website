@@ -5,7 +5,6 @@ import Footer from './Footer/Footer';
 import Gallery from './Gallery/Gallery';
 import Cake from './Cake/Cake';
 import Header from './Header/Header';
-import Intro from './Intro/Intro';
 import Laurels from './Laurels/Laurels';
 import SpecialMenu from './Menu/SpecialMenu';
 import SpecialMenuENG from './Menu/SpecialMenuENG';
@@ -26,7 +25,6 @@ export {
   Gallery,
   Cake,
   Header,
-  Intro,
   Laurels,
   SpecialMenu,
   AboutUsENG,

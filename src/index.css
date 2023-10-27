@@ -23,6 +23,14 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background: url('./assets/bg.webp');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
 a {
   color: unset;
   text-decoration: none;
