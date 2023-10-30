@@ -1,4 +1,5 @@
 import React, { lazy, Suspense } from 'react';
+import Fallback from './Fallback'
 import {
   BrowserRouter as Router,
   Routes,
@@ -38,32 +39,31 @@ const App = () => (
         path='/'
         element={
           <div>
-            <Suspense fallback={<div>Loading...</div>}>  <Navbar /></Suspense>
-            <Suspense fallback={<div>Loading...</div>}><Header /></Suspense>
-            <Suspense fallback={<div>Loading...</div>}><AboutUs />
-            </Suspense>
-            <Suspense fallback={<div>Loading...</div>}>  <SpecialMenu /></Suspense>
-            <Suspense fallback={<div>Loading...</div>}> <Gallery /></Suspense>
-            <Suspense fallback={<div>Loading...</div>}>  <Chef /></Suspense>
-            <Suspense fallback={<div>Loading...</div>}><Laurels /></Suspense>
-            <Suspense fallback={<div>Loading...</div>}> <Cake /></Suspense>
-            <Suspense fallback={<div>Loading...</div>}> <FindUs /></Suspense>
-            <Suspense fallback={<div>Loading...</div>}> <Footer /></Suspense>
+            <Suspense fallback={<Fallback />}><Navbar /></Suspense>
+            <Suspense fallback={<Fallback />}><Header /></Suspense>
+            <Suspense fallback={<Fallback />}><AboutUs /></Suspense>
+            <Suspense fallback={<Fallback />}> <SpecialMenu /></Suspense>
+            <Suspense fallback={<Fallback />}><Gallery /></Suspense>
+            <Suspense fallback={<Fallback />}><Chef /></Suspense>
+            <Suspense fallback={<Fallback />}><Laurels /></Suspense>
+            <Suspense fallback={<Fallback />}><Cake /></Suspense>
+            <Suspense fallback={<Fallback />}><FindUs /></Suspense>
+            <Suspense fallback={<Fallback />}><Footer /></Suspense>
           </div>
         }
       />
 
       <Route exact path='/en' element={<div>
-        <Suspense fallback={<div>Loading...</div>}><NavbarENG /></Suspense>
-        <Suspense fallback={<div>Loading...</div>}><HeaderENG /></Suspense>
-        <Suspense fallback={<div>Loading...</div>}><AboutUsENG /></Suspense>
-        <Suspense fallback={<div>Loading...</div>}><SpecialMenuENG /></Suspense>
-        <Suspense fallback={<div>Loading...</div>}><GalleryENG /></Suspense>
-        <Suspense fallback={<div>Loading...</div>}><ChefENG /></Suspense>
-        <Suspense fallback={<div>Loading...</div>}><LaurelsENG /></Suspense>
-        <Suspense fallback={<div>Loading...</div>}><CakeENG /></Suspense>
-        <Suspense fallback={<div>Loading...</div>}><FindUsENG /></Suspense>
-        <Suspense fallback={<div>Loading...</div>}><FooterENG /></Suspense>
+        <Suspense fallback={<Fallback />}><NavbarENG /></Suspense>
+        <Suspense fallback={<Fallback />}><HeaderENG /></Suspense>
+        <Suspense fallback={<Fallback />}><AboutUsENG /></Suspense>
+        <Suspense fallback={<Fallback />}><SpecialMenuENG /></Suspense>
+        <Suspense fallback={<Fallback />}><GalleryENG /></Suspense>
+        <Suspense fallback={<Fallback />}><ChefENG /></Suspense>
+        <Suspense fallback={<Fallback />}><LaurelsENG /></Suspense>
+        <Suspense fallback={<Fallback />}><CakeENG /></Suspense>
+        <Suspense fallback={<Fallback />}><FindUsENG /></Suspense>
+        <Suspense fallback={<Fallback />}><FooterENG /></Suspense>
       </div>} />
     </Routes>
   </Router>
